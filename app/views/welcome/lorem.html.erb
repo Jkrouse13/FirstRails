@@ -1,0 +1,11 @@
+<% if params[:pgraphs_needed] %>
+  <% @times.times do %>
+  <p>
+    <%= @lorem %>
+  </p>
+  <% end %>
+  <% else %>
+  <p>
+  <%= @lorem %>
+  </p>
+<% end %>
