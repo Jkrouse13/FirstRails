@@ -1,12 +1,10 @@
 class WelcomeController < ApplicationController
   def index
     @welcome_message = 'Salutations!'
-    # render plain: @welcome_message
   end
 
   def show
     @greetee = params[:name].capitalize
-    # render plain: "Greetings!  Welcome to rails #{@greetee}!!!"
   end
 
   def lorem
